@@ -1,0 +1,758 @@
+@font-face {
+    font-family: FBold;
+    src: url(fonts/FuturaBold.otf);
+}
+
+@font-face {
+    font-family: FNorm;
+    src: url(fonts/Futura/FuturaMediumC.ttf);
+}
+
+@font-face {
+    font-family: UniSansH;
+    src: url(fonts/Uni-Sans-Heavy.otf);
+}
+
+@font-face {
+    font-family: FBold;
+    src: url(fonts/FuturaBold.otf);
+}
+
+@font-face {
+    font-family: ExoB;
+    src: url(fonts/Exo2-Bold.ttf);
+}
+
+@font-face {
+    font-family: ExoSB;
+    src: url(fonts/Exo2-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MPro;
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: HBold;
+    src: url(fonts/HelveticaBold.ttf);
+}
+
+@font-face {
+    font-family: HRoman;
+    src: url(fonts/HelveticaRoman.ttf);
+}
+
+@font-face {
+    font-family: Paragon530C;
+    src: url(fonts/Parangon530C.ttf);
+}
+
+@font-face {
+    font-family: PTsans;
+    src: url(fonts/PTsans.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+.imageback {
+    background: url(images/background.png);
+    width: 100%;
+    height: 810px;
+    background-size: cover;
+}
+
+.opacitycolor {
+    background-color: rgba(48, 50, 99, 0.57);
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    line-height: 72px;
+    font-family: Paragon530C;
+    padding-top: 190px;
+}
+
+.sitepribil {
+    font-size: 24px;
+    font-family: PTsans;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.ramki {
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 870px;
+    margin: 64px auto 0 auto;
+    justify-content: space-between;
+}
+
+.ramka1, .ramka2, .ramka3 {
+    border: 2px solid white;
+    width: 251px;
+    height: 156px;
+}
+
+.rumnum {
+    font-family: Paragon530C;
+    font-size: 48px;
+    margin-top: 42px;
+}
+
+.rumtxt {
+    font-family: PTsans;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    width: 1249px;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+    gap: 38px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: FNorm;
+    color: black;
+}
+
+ul li a:hover {
+    color: #f6ae48;
+}
+
+.main1 {
+    width: 1249px;
+    margin: 120px auto 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stud {
+    margin-top: -18px;
+    font-family: HBold;
+    font-size: 48px;
+}
+
+.wetxt {
+    font-family: PTsans;
+    line-height: 30px;
+    margin: 43px 0 0 80px;
+    font-size: 18.5px;
+}
+
+.we {
+    background: url(images/we.png);
+    width: 930px;
+    height: 247px;
+    background-repeat: no-repeat;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: 456px 402px 400px;
+    width: 1275px;
+    margin: 0 auto;
+}
+
+.blockp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20.45px;
+}
+
+.blocktxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.34px;
+    line-height: 25.57px;
+}
+
+.margingrid {
+    margin: 17px 0 0 17px;
+}
+
+.paddingrid {
+    padding: 2px 0 0px 17px;
+}
+
+.paddingridp {
+    padding: 10px 0 0px 17px;
+}
+
+.marginbut {
+    margin: 0 0 20px 20px;
+}
+
+.marginbut2 {
+    margin: 25px 0 20px 23px;
+}
+
+.rimg {
+    background: url(images/rocket.png);
+    width: 30px;
+    height: 65px;
+    background-repeat: no-repeat;
+}
+
+.ming {
+    background: url(images/mobile.png);
+    width: 28px;
+    height: 65px;
+    background-repeat: no-repeat;
+}
+
+.limg {
+    background: url(images/life.png);
+    width: 54px;
+    height: 65px;
+    background-repeat: no-repeat;
+}
+
+.bottomniz {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summabut {
+    color: white;
+    background-color: transparent;
+    font-family: MPro;
+    font-size: 18px;
+    padding: 5px 13px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.learnmore {
+    background: url(images/Rightarrow.png);
+    width: 22px;
+    height: 23px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.kredo {
+    background: url(images/kredo.png);
+    width: 100%;
+    height: 567px;
+    background-size: cover;
+    margin-top: 247px;
+    color: white;
+    text-align: center;
+}
+
+.kredozag {
+    font-family: ExoB;
+    font-size: 50px;
+    padding-top: 117px;
+}
+
+.kredop {
+    font-family: HRoman;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 53px;
+}
+
+.razrab {
+    background: url(images/orangecog.png);
+    width: 1500px;
+    margin: -46px auto;
+    background-repeat: no-repeat;
+}
+
+.raztext {
+    font-family: Paragon530C;
+    font-size: 50px;
+    color: white;
+    padding: 127px 0 0 127px;
+}
+
+.razrabotkatipi {
+    display: flex;
+    width: 1126px;
+    margin: 73px auto 0 auto;
+    justify-content: space-between;
+}
+
+.blackopacity {
+    background-color: rgba(0, 0, 0, 0.69);
+    height: 100%;
+}
+
+.razmerski {
+    width: 366px;
+    height: 315px;
+}
+
+.landp {
+    background: url(images/landingpage.png);
+}
+
+.ws {
+    background: url(images/website.png);
+    background-size: cover;
+}
+
+.onlines {
+    background: url(images/onlineshop.png);
+}
+
+.razrabname {
+    font-family: FBold;
+    font-size: 50.55px;
+    line-height: 48.53px;
+    height: 90px;
+    color: white;
+    padding: 70px 0 19px 32px;
+}
+
+.exo2 {
+    font-family: ExoB;
+    line-height: 54.4px;
+    padding: 64px 0 25px 32px;
+}
+
+.razrabhr {
+    width: 260px;
+    margin-left: 35px;
+}
+
+.butmoney {
+    background-color: transparent;
+    color: white;
+    font-family: MPro;
+    font-size: 24.27px;
+    margin: 50px 0 0 35px;
+    border: 2px solid white;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.butarrow {
+    background: url(images/rightarrowbig.png);
+    width: 32px;
+    height: 33px;
+    margin: 50px 35px 0 0;
+    cursor: pointer;
+}
+
+.btf {
+    width: 1211px;
+    margin: 250px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bethefirst {
+    background: url(images/bethefisrt.png);
+    width: 588px;
+    height: 60px;
+}
+
+.firstname {
+    font-family: Paragon530C;
+    font-size: 36px;
+    padding: 14px 0 0 55px;
+}
+
+.firstxt {
+    padding: 14px 0 0 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.parts {
+    margin-right: 190px;
+}
+
+.gpart {
+    background: url(images/googlepart.png);
+    width: 205px;
+    height: 213px;
+    margin: -29px 0 38px 0;
+}
+
+.ypart {
+    background: url(images/yandexpart.png);
+    width: 209px;
+    height: 224px;
+}
+
+.projects {
+    background-color: #303263;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.prplzag {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.ourproj {
+    background: url(images/OURPROJ.png);
+    width: 791px;
+    height: 73px;
+}
+
+.lastproj {
+    font-family: Paragon530C;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.grids {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.topgrid {
+    display: flex;
+}
+
+.grid1 {
+    background: url(images/grid1.png);
+    width: 769px;
+    height: 426px;
+    background-size: cover;
+}
+
+.grid2 {
+    background: url(images/grid2.png);
+    width: 731px;
+    height: 426px;
+}
+
+.grid3 {
+    background: url(images/grid3.png);
+    width: 365px;
+    height: 325px;
+}
+
+.grid4 {
+    background: url(images/grid6.png);
+    width: 391px;
+    height: 325px;
+    background-size: cover;
+}
+
+.orangeopacity {
+    background-color: rgba(246, 174, 72, 0.84);
+    width: 391px;
+    height: 325px;
+}
+
+.exosb {
+    font-family: ExoSb;
+    color: white;
+    text-align: justify;
+}
+
+.s70 {
+    font-size: 70px;
+    padding: 98px 0 0 100px;
+}
+
+.s30 {
+    font-size: 30px;
+    padding-left: 105px;
+    margin-top: -10px;
+}
+
+.grid5 {
+    background: url(images/grid4.png);
+    width: 372px;
+    height: 325px;
+}
+
+.grid6 {
+    background: url(images/grid5.png);
+    width: 372px;
+    height: 325px;
+}
+
+.buttonmore {
+    cursor: pointer;
+    font-family: Paragon530C;
+    font-size: 20px;
+    background-color: #6a6b8e;
+    color: white;
+    border: none;
+    margin: 29px 0 25px 0;
+    border-radius: 15px;
+    padding: 23px 42px;
+}
+
+.adaptflex {
+    width: 1500px;
+    display: flex;
+    margin: 207px auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adaptext {
+    font-family: Paragon530C;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.idsiisdkfsfdi {
+    margin-left: 150px;
+}
+
+.adaptate {
+    background: url(images/ADAPTATE.png);
+    width: 438px;
+    height: 57px;
+}
+
+.adaptpp {
+    margin: 11px 0 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    font-size: 24px;
+}
+
+.comps {
+    background: url(images/outline.png);
+    margin-top: -60px;
+    width: 659px;
+    height: 432px;
+}
+
+.tradein {
+    background: url(images/tradein.png);
+    height: 676px;
+    background-size: cover;
+    margin: 157px auto 0 auto;
+}
+
+.opacitynew {
+    background-color: rgba(0, 0, 0, 0.52);
+    height: 100%;
+    text-align: center;
+}
+
+.tradezag {
+    font-family: UniSansH;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 53px;
+}
+
+.ppy {
+    width: 1360px;
+    margin: 70px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgzag {
+    font-family: Paragon530C;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.imgp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.pimg {
+    background: url(images/pimg.png);
+    width: 69px;
+    height: 67px;
+    background-repeat: no-repeat;
+}
+
+.ppimg {
+    background: url(images/ppimg.png);
+    width: 67px;
+    height: 67px;
+    margin-left: -35px;
+}
+
+.yimg {
+    background: url(images/yimg.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+}
+
+.pojdfgjpisdfgoij {
+    display: flex;
+    align-items: center;
+}
+
+.ratemysite {
+    font-family: Paragon530C;
+    font-size: 24px;
+    background-color: #f6ae48;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 18px 23px;
+}
+
+.becare {
+    background: url(images/becare.png);
+    width: 472px;
+    height: 54px;
+}
+
+.newmarg {
+    margin-top: 129px;
+    margin-left: auto;
+}
+
+.newmargin2 {
+    margin-top: 198px;
+    text-align: justify;
+}
+
+.becarepp {
+    margin: 20px 0 0 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    font-size: 24px;
+}
+
+.iphonebro {
+    background: url(images/iphonebro.png);
+    width: 563px;
+    height: 460px;
+    margin-top: -27px;
+    margin-right: 117px;
+}
+
+footer {
+    background-color: #f6ae48;
+    height: 677px;
+}
+
+.flexfooter {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 128px;
+}
+.leftft {padding-left: 10px;}
+
+.rightft {width: 600px;}
+
+.formtop {display: flex;}
+
+#first {
+    border-right: none; 
+    width: 290px;
+}
+
+#second {width: 290px;}
+
+.formtop input{border-bottom: none;}
+
+.formbot {display: block;}
+
+.formbot input {
+    width: 578px; 
+    height: 38px; 
+    border-bottom: none;
+}
+
+input {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 32px;
+    background-color: transparent;
+    border: 4px solid white;
+    outline: none;
+    padding: 8px 0 0 14px;
+}
+
+.withus {
+    color: white;
+    font-family: Paragon530C;
+    font-size: 30px;
+}
+
+.readywu {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 45px;
+    line-height: 27px;
+}
+
+textarea {
+    padding: 8px 0 0 14px;
+    width: 578px;
+    height: 153px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    resize: none;
+    border: 4px solid white;
+}
+
+.sendsend {
+    width: 600px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 13px;
+}
+
+.sendsend p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: -2px 0 0 20px;
+}
+
+.sendsend button {
+    font-family: Paragon530C;
+    color: white;
+    background-color: #f6ae48;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 14px 20px;
+}
+
+button {cursor: pointer;}
